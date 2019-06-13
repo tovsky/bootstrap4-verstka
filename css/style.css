@@ -43,3 +43,7 @@ header .nav-item a::after{
 header .nav-item a:hover::after{
     transform: scale(1);
 }
+
+.slider{
+    margin-bottom: 50px;
+}
