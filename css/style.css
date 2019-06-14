@@ -137,3 +137,45 @@ footer{
     color: #626262;
     margin-left: 10px;
 }
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .grid-posts .card-img-top{
+        max-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header .nav-item{
+        margin-left: 0;
+    }
+
+    .grid-posts .card-img-top{
+        max-height: 220px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .grid-posts{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .grid-posts .card{
+         margin-bottom: 50px;
+    }
+
+    .grid-posts .card-img-top{
+        max-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-left{
+        margin-bottom: 10px;
+    }
+}
