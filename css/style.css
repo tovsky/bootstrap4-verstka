@@ -123,3 +123,17 @@ header .nav-item a:hover::after{
     top: -5px;
     font-size: 25px;
 }
+
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    color: #000;
+}
+.footer-left a{
+    color: #000;
+    margin-right: 20px;
+}
+.footer-right a{
+    color: #626262;
+    margin-left: 10px;
+}
